@@ -25,26 +25,3 @@ class School
    end
  end
  end
- 
- 
- def initialize(name)
-   @name = name
-   @roster = {}
- end
- 
- def add_student(student, grade)
-   roster[grade] ||= []
-   roster[grade] << student
- end
- 
- def grade(grades)
-   roster[grades]
- end
- 
- def sort
-   sorted_students = []
-   roster.each do |students, grade|
-     
-     
-   
- 
