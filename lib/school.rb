@@ -27,3 +27,8 @@ class School
  end
  end
  
+ 
+ def initialize(student, grade)
+   @grade = grade
+   @student = {}
+ 
